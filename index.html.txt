@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психология риск-менеджмента</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Психология риск-менеджмента</h1>
+            <p>Формируем культуру управления рисками для будущих лидеров</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#courses">Обучение</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Я профессионал в области риск-менеджмента с более чем 10-летним опытом работы, направленным на повышение культуры управления рисками.</p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Обучение</h2>
+            <p>Доступные материалы по обучению:</p>
+            <ul>
+                <li><a href="#">Скачать материал 1</a></li>
+                <li><a href="#">Скачать материал 2</a></li>
+                <li><a href="#">Скачать материал 3</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2>Отзывы</h2>
+            <p>Отзывы обучающихся:</p>
+            <blockquote>"Отличный курс! Очень полезный и практичный."</blockquote>
+            <blockquote>"Материалы помогли лучше понять управление рисками."</blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Психология риск-менеджмента. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
